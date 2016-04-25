@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteTestEmail" verbose="1">
+	<test name="TestEmailByChrome">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="petrushchak.maven.email.test.EmailTest" />
+		</classes>
+	</test>
+	<test name="TestEmailByFireFox">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="petrushchak.maven.email.test.EmailTest" />
+		</classes>
+	</test>
+</suite>
