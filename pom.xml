@@ -7,7 +7,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<webdriver.chrome>c:\Java\workspace\email.test\src\drivers\</webdriver.chrome>
+		<webdriver.chrome>src\drivers\</webdriver.chrome>
 	</properties>
 
 	<dependencies>
