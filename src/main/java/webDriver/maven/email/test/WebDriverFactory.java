@@ -40,7 +40,7 @@ public class WebDriverFactory {
 
 	private static void setChromeDriver() {
 		String os = System.getProperty("os.name").toLowerCase().substring(0, 3);
-		String chromeBinary = "c:/Java/workspace/email.test/src/drivers/chromedriver"
+		String chromeBinary = "src/drivers/chromedriver"
 				+ (os.equals("win") ? ".exe" : "");
 		System.setProperty("webdriver.chrome.driver", chromeBinary);
 	}
